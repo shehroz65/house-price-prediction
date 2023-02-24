@@ -2,8 +2,9 @@ name: Housing Price Prediction
 
 on:
   push:
-    branches:
-      - main
+    branches: [ Shehroz, i190744]
+  pull_request:
+    types: [closed]
 
 jobs:
   build:
