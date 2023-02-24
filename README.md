@@ -1,7 +1,11 @@
-# house-price-prediction
-Predicting house prices using Linear Regression and Gradient Boosting Regressor
+A housing price prediction problem implemented using Linear Regression and XGB Regressor.
+To use this project, install the following dependencies
+!pip install numpy
+!pip install pandas
+!pip install matplotlib
+!pip install seaborn
+!pip install mpl_toolkits
 
-The tutorial and write up for the code can be found here 
-https://medium.com/towards-data-science/create-a-model-to-predict-house-prices-using-python-d34fe8fad88f
+The dataset used is the kc house data dataset picked from https://www.kaggle.com/datasets/shivachandel/kc-house-data
 
-Thank you
+The preprocessing includes dropping the id. And min-max scaling the other features for improved accuracy. 
